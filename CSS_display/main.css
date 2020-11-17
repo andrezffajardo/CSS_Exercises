@@ -2,6 +2,10 @@ body {
   background-color: #eee;
 }
 
-p {
-  display: inline;
+#invisible {
+  display: none;
+}
+
+span {
+  display: block;
 }
