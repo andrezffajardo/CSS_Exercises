@@ -3,8 +3,5 @@ body {
 }
 
 .fondo {
-  height: 400px;
-  background: green url("https://placekitten.com/200/300") no-repeat left top
-    fixed;
-  background-size: cover;
+  background-color: rgba(0, 0, 255, 0.2);
 }
