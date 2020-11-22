@@ -12,10 +12,13 @@ body {
   grid-template-columns: 1fr 200px;
   grid-auto-rows: 140px;
   grid-auto-flow: row;
-  justify-items: stretch;
-  align-items: end;
 }
 
 .red {
   background-color: red;
+}
+
+.item-1 {
+  align-self: center;
+  justify-self: center;
 }
