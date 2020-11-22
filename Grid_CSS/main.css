@@ -4,8 +4,8 @@ body {
 
 .grid {
   display: grid;
-  grid-template-rows: [row-1-start] 50px [row-2-start] 50px [row-3-end];
-  grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start] 1fr [col-4-end];
+  grid-template-rows: repeat(2, [row-start] 50px [row-end]);
+  grid-template-columns: repeat(3, [col-start] 1fr [col-end]);
   grid-gap: 15px;
 }
 
@@ -14,6 +14,6 @@ body {
 }
 
 .header {
-  grid-column: col-1-start / col-4-end;
-  grid-row: row-1-start / row-3-end;
+  grid-column: col-start / col-end 3;
+  grid-row: row-start / row-end 3;
 }
