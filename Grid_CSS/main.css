@@ -12,3 +12,8 @@ body {
 .element {
   background-color: coral;
 }
+
+.header {
+  grid-column: 1 / 6;
+  grid-row: 1 / 3;
+}
