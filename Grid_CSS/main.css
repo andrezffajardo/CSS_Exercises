@@ -4,6 +4,7 @@ body {
 
 .grid {
   display: grid;
+  grid-template-columns: 90px 50px 120px;
 }
 
 .element {
