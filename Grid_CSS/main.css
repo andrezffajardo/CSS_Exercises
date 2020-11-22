@@ -1,0 +1,11 @@
+body {
+  background-color: #ddd;
+}
+
+.grid {
+  display: grid;
+}
+
+.element {
+  background-color: coral;
+}
