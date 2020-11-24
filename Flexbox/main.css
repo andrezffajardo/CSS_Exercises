@@ -9,8 +9,7 @@
 }
 
 .primero {
-  flex-grow: 1;
-  flex-basis: 120px;
+  flex: 1 120px;
 }
 
 .tercero {
